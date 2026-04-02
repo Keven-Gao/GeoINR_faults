@@ -12,5 +12,5 @@ Open `docs/build/html/index.html` in your browser.
 ## Notes
 
 - API pages are generated automatically from `geoinr_faults/`.
-- `test.ipynb` and `horizontal_stratigraphy.ipynb` are copied from repo root
-  to `docs/source/examples/` at build time.
+- Example notebooks are copied from repo root `examples/` to
+  `docs/source/examples/` at build time.

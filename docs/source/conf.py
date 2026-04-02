@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -21,6 +22,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "nbsphinx",
 ]
 
 templates_path = ["_templates"]
@@ -38,6 +40,7 @@ autoclass_content = "both"
 autodoc_typehints = "description"
 napoleon_google_docstring = False
 napoleon_numpy_docstring = True
+nbsphinx_execute = "never"
 
 # Allow API docs to build in a lightweight docs-only environment.
 autodoc_mock_imports = [
@@ -67,6 +70,29 @@ html_theme_options = {
     "body_max_width": "760px",
 }
 
+EXAMPLE_NOTEBOOKS = [
+    "horizontal_stratigraphy.ipynb",
+    "faulted.ipynb",
+    "Amoco.ipynb",
+    "Relay_ramp.ipynb",
+    "Claudius.ipynb",
+    "Hecho.ipynb",
+]
+
+
+def _sync_example_notebooks() -> None:
+    src_dir = ROOT / "examples"
+    dst_dir = SOURCE / "examples"
+    dst_dir.mkdir(parents=True, exist_ok=True)
+
+    for notebook in EXAMPLE_NOTEBOOKS:
+        src = src_dir / notebook
+        dst = dst_dir / notebook
+        if not src.exists():
+            print(f"[docs] Warning: missing notebook for docs: {src}")
+            continue
+        shutil.copyfile(src, dst)
+
 
 def _run_apidoc() -> None:
     from sphinx.ext.apidoc import main
@@ -89,6 +115,11 @@ def _run_apidoc() -> None:
 
 
 def _prepare_docs(_app) -> None:
+    try:
+        _sync_example_notebooks()
+    except Exception as exc:
+        print(f"[docs] Warning: example notebook sync failed: {exc}")
+
     try:
         _run_apidoc()
     except Exception as exc:

@@ -9,7 +9,7 @@ on:
       - ".github/workflows/docs.yml"
       - "docs/**"
       - "geoinr_faults/**"
-      - "*.ipynb"
+      - "examples/*.ipynb"
       - "pyproject.toml"
       - "README.md"
   pull_request:
@@ -17,7 +17,7 @@ on:
       - ".github/workflows/docs.yml"
       - "docs/**"
       - "geoinr_faults/**"
-      - "*.ipynb"
+      - "examples/*.ipynb"
       - "pyproject.toml"
   workflow_dispatch:
 

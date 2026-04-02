@@ -1,3 +1,4 @@
 sphinx>=7.4
 alabaster>=0.7.16
 nbconvert>=7.16
+nbsphinx>=0.9.7
