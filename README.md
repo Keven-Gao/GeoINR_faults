@@ -19,9 +19,8 @@ This repository is developed as a research extension focusing on fault modeling.
 ## Repository Structure
 
 - `main_faults` branch: fault modeling implementation used in this fork
-- `main` branch: baseline branch kept for compatibility
 - `GeoINR_original` branch: original GeoINR codebase (forked)
-- `NN_fault` branch: related fault modeling works in INRs (forked)
+- `NN_fault` branch: related fault modeling works in INRs (upstream)
 
 ## Installation
 
@@ -36,9 +35,7 @@ A clean environment is recommended. To accelerate computations for complex and l
 After installation, you can either check the notebook tutorials or go to the documentation for further information.
 
 - [Notebook tutorials](examples/)
-- [Documentation (online)](https://keven-gao.github.io/GeoINR_faults/)
-- [Documentation build instructions](docs/README.md)
-- Local built docs entry: `docs/build/html/index.html`
+- [Documentation](https://keven-gao.github.io/GeoINR_faults/about.html)
 
 ## License
 
