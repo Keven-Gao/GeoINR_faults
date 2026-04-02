@@ -18,7 +18,7 @@ This repository is developed as a research extension focusing on fault modeling.
 
 ## Repository Structure
 
-- `main_faults` branch: fault modeling implementation used in this fork
+- `main_faults` branch: fault modeling implementation (default)
 - `GeoINR_original` branch: original GeoINR codebase (forked)
 - `NN_fault` branch: related fault modeling works in INRs (upstream)
 
