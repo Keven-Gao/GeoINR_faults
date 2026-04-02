@@ -1,0 +1,11 @@
+build/
+source/examples/*.ipynb
+source/_static/examples/*.png
+!source/_static/examples/horizontal_stratigraphy.png
+!source/_static/examples/faulted.png
+!source/_static/examples/Amoco.png
+!source/_static/examples/Relay_ramp.png
+!source/_static/examples/Claudius.png
+!source/_static/examples/Hecho.png
+source/api/modules.rst
+source/api/geoinr*.rst

@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoinr_faults"
+version = "0.1.0"
+description = "Fault-aware implicit neural representation toolkit for geologic modeling."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Kaifeng Gao" }
+]
+keywords = ["geology", "geomodeling", "implicit-neural-representation", "fault-modeling"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "pyvista>=0.43",
+  "scipy>=1.10",
+  "scikit-learn>=1.2",
+  "torch>=2.1",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2",
+  "twine>=5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["geoinr_faults*"]
+namespaces = true
+
+[tool.setuptools]
+license-files = ["LICENSE"]

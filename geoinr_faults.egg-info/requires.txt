@@ -1,0 +1,11 @@
+numpy>=1.23
+pandas>=1.5
+pyvista>=0.43
+scipy>=1.10
+scikit-learn>=1.2
+torch>=2.1
+matplotlib>=3.7
+
+[dev]
+build>=1.2
+twine>=5.0

@@ -1,0 +1,172 @@
+Metadata-Version: 2.4
+Name: geoinr_faults
+Version: 0.1.0
+Summary: Fault-aware implicit neural representation toolkit for geologic modeling.
+Author: Kaifeng Gao
+License: GeoINR-faults License
+        
+        This package contains both original code developed by the authors of
+        GeoINR-faults and code derived from the GeoINR project.
+        
+        ----------------------------------------------------------------------
+        1. Original GeoINR License
+        ----------------------------------------------------------------------
+        
+        Portions of this software are derived from the GeoINR project:
+        
+        Copyright (c) 2020 Government of Canada
+        
+        The original GeoINR source code is distributed under the MIT License.
+        The full license text is included below:
+        
+        ----------------------------------------------------------------------
+        [BEGIN GEOINR LICENSE]
+        
+        MIT License
+        
+        Copyright (c) 2020 Government of Canada
+        
+        Permission is hereby granted, free of charge, to any person obtaining a 
+        copy of this software and associated documentation files (the "Software"), 
+        to deal in the Software without restriction, including without limitation 
+        the rights to use, copy, modify, merge, publish, distribute, sublicense,
+        and/or sell copies of the Software, and to permit persons to whom the 
+        Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in 
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+        CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+        OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+        THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+        [END GEOINR LICENSE]
+        
+        ----------------------------------------------------------------------
+        2. GeoINR-faults Original Code
+        ----------------------------------------------------------------------
+        
+        All original code developed specifically for GeoINR-faults is:
+        
+        Copyright (c) 2026 [Kaifeng Gao (CG3, RWTH Aachen University)]
+        
+        This portion of the code is also distributed under the MIT License:
+        
+        ----------------------------------------------------------------------
+        [BEGIN GEOINR-FAULTS LICENSE]
+        
+        MIT License
+        
+        Copyright (c) 2026 [Kaifeng Gao]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a 
+        copy of this software and associated documentation files (the "Software"), 
+        to deal in the Software without restriction, including without limitation 
+        the rights to use, copy, modify, merge, publish, distribute, sublicense,
+        and/or sell copies of the Software, and to permit persons to whom the 
+        Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in 
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+        CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+        OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+        THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+        [END GEOINR-FAULTS LICENSE]
+        
+        ----------------------------------------------------------------------
+        3. Notes
+        ----------------------------------------------------------------------
+        
+        - This repository includes a fork of the GeoINR project.
+        - All original copyright and permission notices from GeoINR are retained.
+        - Newly developed components are clearly indicated where applicable.
+        
+        
+Keywords: geology,geomodeling,implicit-neural-representation,fault-modeling
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.23
+Requires-Dist: pandas>=1.5
+Requires-Dist: pyvista>=0.43
+Requires-Dist: scipy>=1.10
+Requires-Dist: scikit-learn>=1.2
+Requires-Dist: torch>=2.1
+Requires-Dist: matplotlib>=3.7
+Provides-Extra: dev
+Requires-Dist: build>=1.2; extra == "dev"
+Requires-Dist: twine>=5.0; extra == "dev"
+Dynamic: license-file
+
+# GeoINR-faults
+
+**GeoINR-faults** is an extension of the GeoINR framework, designed to explore and extend the capabilities of implicit neural representations for structural geology.
+
+In addition to fault modeling, GeoINR-faults re-implements a substantial portion of the core functionality of the original GeoINR framework, providing a unified implementation for both standard GeoINR workflows and fault-related extensions.
+
+## Relationship to GeoINR
+
+GeoINR-faults is based on the methodology introduced in the original GeoINR project:
+
+> Hillier, M., Wellmann, F., de Kemp, E., Schetselaar, E., Brodaric, B., & Bédard, K. (2023). GeoINR 1.0: an implicit neural representation network for three-dimensional geological modelling. Geoscientific Model Development Discussions, 2023, 1-40. https://doi.org/10.5194/gmd-16-6987-2023
+
+This repository is developed as a research extension focusing on fault modeling.
+
+**Note:**  
+- This is **not the official GeoINR repository**  
+- The implementation in this repository is developed independently
+
+## Repository Structure
+
+- `main` branch: new implementation for fault modeling
+- `GeoINR_original` branch: original GeoINR codebase (forked)
+- `NN_fault` branch: related fault modeling works in INRs (forked)
+
+## Installation
+
+We provide the latest release version of GeoINR-faults via PyPi package services. We highly recommend using PyPi,
+
+`$ pip install geoinr_faults`
+
+The dependencies are: `numpy`, `pandas`, `scipy`, `sklearn`, `torch`, `matplotlib`, and `pyvista`.
+
+## Documentation
+
+After installation, you can either check the notebook tutorials or go to the documentation site for further information.
+
+- Notebook tutorials
+- Documentation
+
+## License
+
+This repository includes components from the original GeoINR project. All original GeoINR copyright and permission notices are retained in accordance with the MIT License. Additional code in this repository is subject to separate copyright notices.
+
+## Citation
+
+If you use this work, please cite:
+
+- Hillier, M., Wellmann, F., de Kemp, E., Schetselaar, E., Brodaric, B., & Bédard, K. (2023). GeoINR 1.0: an implicit neural representation network for three-dimensional geological modelling. Geoscientific Model Development Discussions, 2023, 1-40. https://doi.org/10.5194/gmd-16-6987-2023
+- Gao, K., & Wellmann, F. (2025). Fault representation in structural modelling with implicit neural representations. Computers & Geosciences, 199, 105911. https://doi.org/10.1016/j.cageo.2025.105911
+- This repository (to be updated)
+
+

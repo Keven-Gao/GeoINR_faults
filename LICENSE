@@ -1,0 +1,88 @@
+GeoINR-faults License
+
+This package contains both original code developed by the authors of
+GeoINR-faults and code derived from the GeoINR project.
+
+----------------------------------------------------------------------
+1. Original GeoINR License
+----------------------------------------------------------------------
+
+Portions of this software are derived from the GeoINR project:
+
+Copyright (c) 2020 Government of Canada
+
+The original GeoINR source code is distributed under the MIT License.
+The full license text is included below:
+
+----------------------------------------------------------------------
+[BEGIN GEOINR LICENSE]
+
+MIT License
+
+Copyright (c) 2020 Government of Canada
+
+Permission is hereby granted, free of charge, to any person obtaining a 
+copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[END GEOINR LICENSE]
+
+----------------------------------------------------------------------
+2. GeoINR-faults Original Code
+----------------------------------------------------------------------
+
+All original code developed specifically for GeoINR-faults is:
+
+Copyright (c) 2026 [Kaifeng Gao (CG3, RWTH Aachen University)]
+
+This portion of the code is also distributed under the MIT License:
+
+----------------------------------------------------------------------
+[BEGIN GEOINR-FAULTS LICENSE]
+
+MIT License
+
+Copyright (c) 2026 [Kaifeng Gao]
+
+Permission is hereby granted, free of charge, to any person obtaining a 
+copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[END GEOINR-FAULTS LICENSE]
+
+----------------------------------------------------------------------
+3. Notes
+----------------------------------------------------------------------
+
+- This repository includes a fork of the GeoINR project.
+- All original copyright and permission notices from GeoINR are retained.
+- Newly developed components are clearly indicated where applicable.
+
