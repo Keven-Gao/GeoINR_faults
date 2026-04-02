@@ -12,5 +12,5 @@ Open `docs/build/html/index.html` in your browser.
 ## Notes
 
 - API pages are generated automatically from `geoinr_faults/`.
-- Example notebooks are copied from repo root `examples/` to
-  `docs/source/examples/` at build time.
+- Notebook examples are maintained in the repository `examples/` directory and
+  linked from the docs examples gallery.
