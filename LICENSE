@@ -1,3 +1,494 @@
+# GeoINR-faults License
+
+GeoINR-faults contains software components subject to different license terms.
+
+This License distinguishes between:
+
+1. code derived from the original GeoINR project; and
+2. original code, modifications, algorithms, implementations, and
+   documentation developed specifically for GeoINR-faults.
+
+Please read the applicable sections carefully.
+
+---
+
+## 1. Original GeoINR Code
+
+Portions of this software are derived from the GeoINR project.
+
+Copyright (c) 2020 Government of Canada
+
+The original GeoINR source code and portions derived from it remain
+distributed under the MIT License.
+
+Nothing in the GeoINR-faults license modifies, restricts, or revokes the
+rights granted under the original GeoINR MIT License.
+
+The complete original license is reproduced below.
+
+### MIT License
+
+Copyright (c) 2020 Government of Canada
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+---
+
+## 2. GeoINR-faults Original Code and Modifications
+
+Except for third-party code and portions derived from the original GeoINR
+project as described above, original source code, modifications,
+algorithms, implementations, documentation, and other software components
+developed specifically for GeoINR-faults are:
+
+Copyright (c) 2026 Kaifeng Gao
+
+All rights reserved except as expressly granted under the terms below.
+
+These portions are distributed under the GeoINR-faults Non-Commercial
+License described in Sections 3–16 of this document.
+
+This license applies only to material for which the copyright holder has
+the legal authority to grant such a license.
+
+It does not modify or restrict rights independently granted under the MIT
+License or any other third-party license.
+
+---
+
+## 3. Non-Commercial License Grant
+
+Subject to the terms of this License, the copyright holder grants you a
+non-exclusive, worldwide, royalty-free license to:
+
+(a) use the GeoINR-faults original code for non-commercial research,
+    education, teaching, academic publication, personal study, testing,
+    benchmarking, and evaluation;
+
+(b) copy the GeoINR-faults original code for such non-commercial purposes;
+
+(c) modify the GeoINR-faults original code and create derivative works for
+    such non-commercial purposes; and
+
+(d) redistribute the GeoINR-faults original code or modified versions for
+    non-commercial purposes, provided that the requirements of this
+    License are satisfied.
+
+No rights for Commercial Use are granted under this section.
+
+---
+
+## 4. Definition of Non-Commercial Use
+
+"Non-Commercial Use" means use that is not primarily intended for or
+directed toward commercial advantage, monetary compensation, revenue
+generation, commercial exploitation, or the operation or development of
+a commercial product or service.
+
+Subject to the terms of this License, examples of permitted
+Non-Commercial Use include:
+
+- academic research;
+- teaching and education;
+- student projects;
+- academic theses and dissertations;
+- reproduction of published scientific results;
+- personal study and experimentation;
+- non-commercial benchmarking and evaluation; and
+- research conducted by universities, non-profit research institutions,
+  and public research organizations for non-commercial purposes.
+
+The fact that an organization is a university, research institution,
+government organization, or non-profit organization does not
+automatically make every use non-commercial. The purpose and context of
+the particular use must also be considered.
+
+---
+
+## 5. Commercial Use Prohibited
+
+Commercial Use of the GeoINR-faults original code is NOT permitted under
+this License without prior written authorization or a separate Commercial
+License from the applicable copyright holder.
+
+"Commercial Use" includes, but is not limited to:
+
+(a) selling, licensing, renting, sublicensing, or otherwise providing the
+    Software or a derivative work for a fee or other commercial benefit;
+
+(b) incorporating the GeoINR-faults original code, or a substantial
+    portion of it, into commercial or proprietary software;
+
+(c) incorporating the GeoINR-faults original code into a product or
+    service intended for commercial sale, licensing, deployment, or
+    monetization;
+
+(d) using the GeoINR-faults original code to provide paid consulting,
+    engineering, geological modeling, geophysical interpretation,
+    data-processing, technical, or other commercial services;
+
+(e) using the GeoINR-faults original code as part of commercial
+    production, commercial engineering activities, or internal business
+    operations from which a for-profit organization obtains or reasonably
+    expects economic benefit;
+
+(f) providing access to the GeoINR-faults original code or its
+    functionality through a commercial cloud platform, hosted service,
+    Software-as-a-Service (SaaS) platform, web service, API, or similar
+    commercial service;
+
+(g) modifying or integrating the GeoINR-faults original code for the
+    purpose of developing a commercial product or service;
+
+(h) reselling, sublicensing, or commercially redistributing the
+    GeoINR-faults original code or derivative works; or
+
+(i) otherwise commercially exploiting the GeoINR-faults original code or
+    derivative works.
+
+Commercial Use requires a separate written Commercial License from the
+applicable copyright holder.
+
+---
+
+## 6. Academic and Scientific Research
+
+Use of the GeoINR-faults original code in non-commercial scientific and
+academic research is permitted.
+
+Researchers may use, modify, and evaluate the Software for purposes such
+as:
+
+- scientific publications;
+- reproducibility studies;
+- algorithm comparison;
+- academic benchmarking;
+- method development;
+- teaching;
+- theses and dissertations; and
+- other non-commercial research activities.
+
+Publications resulting from use of GeoINR-faults should provide
+appropriate citation and attribution to the GeoINR-faults project and its
+associated scientific publication where applicable.
+
+Citation or attribution does not replace compliance with this License and
+does not itself grant commercial-use rights.
+
+---
+
+## 7. Modification
+
+You may modify GeoINR-faults original code and create derivative works for
+Non-Commercial Use.
+
+When distributing modified versions, you must:
+
+(a) clearly identify files or portions that you have modified;
+
+(b) retain applicable copyright notices;
+
+(c) retain this License;
+
+(d) state that your version is modified from GeoINR-faults where
+    appropriate;
+
+(e) preserve all notices required by licenses applying to GeoINR and
+    other third-party components; and
+
+(f) not represent a modified version as an official release of
+    GeoINR-faults without written permission.
+
+Modification does not give you ownership of the underlying GeoINR-faults
+original code.
+
+---
+
+## 8. Redistribution
+
+Redistribution of GeoINR-faults original code or derivative works is
+permitted only for Non-Commercial Use and subject to the terms of this
+License.
+
+When redistributing covered material, you must:
+
+(a) include this License;
+
+(b) retain applicable copyright notices;
+
+(c) identify material derived from GeoINR where applicable;
+
+(d) retain the original GeoINR MIT License notice;
+
+(e) preserve third-party license notices; and
+
+(f) not impose additional terms that purport to grant Commercial Use
+    rights to GeoINR-faults original code.
+
+Nothing in this section restricts independent rights granted under the
+original GeoINR MIT License.
+
+---
+
+## 9. Attribution and Copyright Notices
+
+All applicable copyright, attribution, and license notices included with
+GeoINR-faults must be preserved in copies or substantial portions of the
+Software.
+
+In particular:
+
+### GeoINR-derived material
+
+Copyright (c) 2020 Government of Canada
+
+Licensed under the MIT License reproduced in Section 1.
+
+### GeoINR-faults original material
+
+Copyright (c) 2026 Kaifeng Gao
+
+Licensed under the GeoINR-faults Non-Commercial License set forth in this
+document.
+
+Where source files clearly identify their origin or applicable license,
+those notices should be preserved.
+
+---
+
+## 10. Commercial Licensing
+
+The copyright holder expressly reserves the right to commercially exploit
+GeoINR-faults original code and to offer it under separate licensing
+terms.
+
+Nothing in this License prevents the applicable copyright holder from:
+
+(a) commercially using the Software;
+
+(b) developing commercial or proprietary versions of the Software;
+
+(c) licensing the Software to other parties under different terms;
+
+(d) granting permission for integration into proprietary software;
+
+(e) offering commercial SaaS or cloud services based on the Software;
+
+(f) providing paid support, consulting, development, or maintenance
+    services;
+
+(g) selling or licensing commercial editions of the Software; or
+
+(h) otherwise commercially exploiting intellectual property owned by the
+    copyright holder.
+
+Organizations or individuals wishing to use GeoINR-faults original code
+for Commercial Use must obtain a separate written Commercial License from
+the applicable copyright holder.
+
+A Commercial License may grant rights beyond those provided by this
+Non-Commercial License, including proprietary integration, commercial
+distribution, commercial deployment, or other commercial uses.
+
+The Commercial License requirement applies only to material for which the
+GeoINR-faults copyright holder has the legal authority to grant such
+rights.
+
+It does not modify rights granted independently under the original GeoINR
+MIT License or licenses applicable to other third-party components.
+
+---
+
+## 11. Ownership and Reservation of Rights
+
+Except for the limited rights expressly granted under this License, all
+copyright and other intellectual property rights in GeoINR-faults original
+code remain with the applicable copyright holder.
+
+This License does not transfer ownership of GeoINR-faults original code.
+
+All rights not expressly granted are reserved.
+
+No provision in this License transfers ownership of the original GeoINR
+code, third-party code, trademarks, patents, institutional names, or other
+intellectual property not owned by the GeoINR-faults copyright holder.
+
+---
+
+## 12. Third-Party Software
+
+GeoINR-faults contains or may contain, incorporate, depend upon, or
+interoperate with third-party software.
+
+Third-party components remain subject exclusively to their respective
+licenses.
+
+Nothing in this GeoINR-faults Non-Commercial License:
+
+(a) changes the license applicable to third-party software;
+
+(b) reduces rights independently granted by a third-party license;
+
+(c) grants additional rights in third-party software; or
+
+(d) claims ownership of third-party intellectual property.
+
+In particular, the rights granted under the MIT License for original
+GeoINR material remain fully applicable to that material.
+
+Users are responsible for complying with licenses applicable to all
+third-party dependencies and components.
+
+---
+
+## 13. No Trademark or Institutional Rights
+
+This License does not grant permission to use any trade name, trademark,
+service mark, logo, institutional name, research-group name, or other
+designation associated with the copyright holder, contributors, or their
+institutions, except as reasonably necessary for accurate attribution.
+
+No endorsement by the copyright holder, contributors, research groups, or
+institutions may be implied without prior written permission.
+
+---
+
+## 14. Versions Previously Released Under Other Licenses
+
+This License applies only to versions, releases, files, modifications, or
+portions of GeoINR-faults that are expressly distributed under this
+License.
+
+It does not revoke, terminate, or retroactively alter rights that were
+validly granted for copies or versions previously released under another
+license.
+
+In particular, if an earlier version of GeoINR-faults original code was
+released under the MIT License, recipients of that earlier version retain
+the rights granted to them under the MIT License applicable to that
+release.
+
+Subsequent versions may be released under different licensing terms by
+the applicable copyright holder.
+
+The licensing terms accompanying each release determine the license
+applicable to that release.
+
+---
+
+## 15. Termination
+
+Rights granted under the GeoINR-faults Non-Commercial License terminate
+automatically if you materially violate its terms.
+
+Upon termination, you must cease exercising rights granted solely under
+this Non-Commercial License, including unauthorized use, modification, or
+distribution of covered GeoINR-faults original code.
+
+Termination of rights under the GeoINR-faults Non-Commercial License does
+not terminate rights that you independently possess under:
+
+- the original GeoINR MIT License;
+- another valid third-party license; or
+- a separate written Commercial License.
+
+The copyright holder may provide written reinstatement of rights where
+appropriate.
+
+---
+
+## 16. Disclaimer of Warranty
+
+GEOINR-FAULTS ORIGINAL CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+NON-INFRINGEMENT, ACCURACY, RELIABILITY, OR FITNESS FOR SCIENTIFIC,
+ENGINEERING, OR COMMERCIAL APPLICATIONS.
+
+THE COPYRIGHT HOLDER AND CONTRIBUTORS DO NOT WARRANT THAT THE SOFTWARE
+WILL BE ERROR-FREE, UNINTERRUPTED, SECURE, ACCURATE, OR SUITABLE FOR ANY
+PARTICULAR PURPOSE.
+
+USERS ARE RESPONSIBLE FOR VERIFYING RESULTS PRODUCED BY THE SOFTWARE
+BEFORE USING THEM FOR SCIENTIFIC, TECHNICAL, ENGINEERING, SAFETY-CRITICAL,
+OR OTHER PURPOSES.
+
+---
+
+## 17. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+COPYRIGHT HOLDER, CONTRIBUTORS, OR THEIR AFFILIATED INSTITUTIONS BE LIABLE
+FOR ANY CLAIM, DIRECT OR INDIRECT DAMAGES, INCIDENTAL DAMAGES,
+CONSEQUENTIAL DAMAGES, SPECIAL DAMAGES, LOSS OF DATA, LOSS OF PROFITS,
+BUSINESS INTERRUPTION, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN
+CONNECTION WITH GEOINR-FAULTS ORIGINAL CODE OR ITS USE, MODIFICATION,
+DISTRIBUTION, OR OTHER DEALINGS.
+
+---
+
+## 18. Acceptance
+
+By exercising rights granted under the GeoINR-faults Non-Commercial
+License, including using, copying, modifying, or distributing covered
+GeoINR-faults original code, you agree to comply with the applicable
+terms of this License.
+
+If you do not agree to these terms, you may not exercise rights granted
+solely under the GeoINR-faults Non-Commercial License.
+
+This provision does not restrict rights independently granted for original
+GeoINR or third-party components under their respective licenses.
+
+---
+
+## 19. Summary of Licensing Structure
+
+For clarity:
+
+Original GeoINR code
+    Copyright (c) 2020 Government of Canada
+    License: MIT License
+    Commercial use: Permitted under the MIT License
+
+GeoINR-faults original code and modifications
+    Copyright (c) 2026 Kaifeng Gao
+    License: GeoINR-faults Non-Commercial License
+    Non-commercial academic and research use: Permitted
+    Modification for non-commercial purposes: Permitted
+    Redistribution for non-commercial purposes: Permitted
+    Commercial use: Not permitted without separate authorization
+    Commercial licensing: Available separately from the applicable
+                          copyright holder
+
+Third-party components
+    License: Governed by their respective license terms
+
+---
+
+END OF LICENSE
+
+
+----------------------------------------------------------------------
+Previous version (before Sept. 10, 2026):
+----------------------------------------------------------------------
+
 GeoINR-faults License
 
 This package contains both original code developed by the authors of
